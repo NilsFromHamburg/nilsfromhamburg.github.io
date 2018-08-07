@@ -470,7 +470,11 @@ img:hover {
 	box-shadow: none;
 }
 
-#mc-embed-signup input {
+#mc_embed_signup input {
+	border: none;
+}
+
+#mc-embedded-subscribe {
 	border: none;
 }
 
