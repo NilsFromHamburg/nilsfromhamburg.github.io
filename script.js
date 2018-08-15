@@ -89,7 +89,7 @@ input.addEventListener("keypress", addListAfterKeyPress);
 
 ul.addEventListener("click", checked);
   	
-
+// Shopping List inspired by fellow student drood87 (see: https://github.com/drood87/drood87.github.io-shoppingList)
 
 
 
