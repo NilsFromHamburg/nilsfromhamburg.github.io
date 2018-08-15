@@ -168,6 +168,11 @@ h5 {
 	font-size: 1.8em;
 }
 
+h6 {
+	text-align: left;
+	padding-left: 10px;
+}
+
 p {
 	font-size: 1.5em;
 }
@@ -483,6 +488,55 @@ img:hover {
 	clear:left; 
 	font:14px Helvetica,Arial,sans-serif;
 	border: none; 
+}
+
+
+/* JAVASCRIPT SHOPPING LIST EXERCISE SECTION */
+
+.wrapper {
+	display: flex;
+	padding-top: 40px;
+}
+
+.shoppinglist-and-headline {
+	width: 50%;
+	border-left: solid 1px #92BCA2;
+	margin-left: 15px;
+}
+
+input {
+	max-height: 30px;
+	width: 40%;
+}
+
+button#shoppinglistenter {
+	max-height: 30px;
+	width: 10%;
+}
+
+ul.shopping-list > li {
+	font-size: 1.2em;
+}
+
+.del-toggle {
+	background-color: none;
+	border: none;
+	color: #92BCA2;
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+	top: -0.5em;
+	transition: all 1s;
+}
+
+.del-toggle:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+li.done {
+	text-decoration: line-through;
 }
 
 /* END */
