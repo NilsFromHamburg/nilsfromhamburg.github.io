@@ -560,7 +560,6 @@ ul.shopping-list > li {
 	border: none;
 	color: #92BCA2;
 	font-size: 75%;
-	line-height: 0;
 	position: relative;
 	vertical-align: baseline;
 	top: -0.5em;
@@ -568,7 +567,7 @@ ul.shopping-list > li {
 }
 
 .del-toggle:hover {
-	transform: scale(1.1);
+	transform: scale(1.15);
 	cursor: pointer;
 }
 
