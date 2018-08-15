@@ -8,20 +8,30 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 <body>
+	<nav class="navbar navbar-expand fixed-top">
+		<a href="index.html"><img id="nav-logo" src="files/NO_logo.png"></a>
+		<ul class="navbar-list">
+			<li class="navbar-list-item"><a class="navbar-link" href="#nav-anchor-welcome">Welcome</a></li>
+			<li class="navbar-list-item"><a class="navbar-link" href="#nav-anchor-robot-friend">Robot Friend</a></li>
+			<li class="navbar-list-item"><a class="navbar-link" href="#nav-anchor-flexbox">Flexbox</a></li>
+			<li class="navbar-list-item"><a class="navbar-link" href="#nav-anchor-startup-landing-page">Startup Landing Page</a></li>
+			<li class="navbar-list-item"><a class="navbar-link" href="#nav-anchor-shopping-list">Shopping List</a></li>
+		</ul>
+	</nav>
 	<header>
-		<div class="header-wrapper">
-		<a href="http://nilsoeynhausen.de"><img class="header-logo" src="files/NO_Logo.png"></a>
 		<div class="headline-wrapper">
 		<h1>Nils Oeynhausen's Coding Zen Garden</h1>
 		<h2>Testing Ground for Web Development Exercises</h2>
-		</div>
 		</div>
 	</header>
 	
 	<main>
 		<div class="main-content">
 			<section class="white-section main-content-content">
-				<h3>Welcome</h3>
+				<div class="nav-anchor">
+					<a id="nav-anchor-welcome"></a>
+					<h3>Welcome</h3>
+				</div>
 				<h4>This is just an introduction.</h4>
 					<p> Hello there! This is just a test.</p>
 					<p>It is a test website to keep track of my progress with the aweseome "The Complete Web Developer in 2018" Udemy course by Andrei Neagoie.</p>
@@ -35,7 +45,10 @@
 					<p>Finally there is the <strong>footer</strong> which contains some further <em>links</em>. You'll also notice the same pattern as picked for the header, this time on a single color background which makes it even more visible.</p>
 			</section>
 			<section class="green-section robot-friend-exercise">
-				<h3>Hidden Lady Boy Robot Friend</h3>
+				<div class="nav-anchor">
+					<a id="nav-anchor-robot-friend"></a>
+					<h3>Hidden Lady Boy Robot Friend</h3>
+				</div>
 				<h4>CSS Transition and Transformation Exercise</h4>
 				<div class="robots">
 					<div class="android"> 
@@ -73,7 +86,10 @@
 				<h5> Go, explore this naughty little robot with your cursor!</h5>
 			</section>	
 			<section class="white-section flexbox-exercise">
-				<h3>Life in the Jungle</h3>
+				<div class="nav-anchor">
+					<a id="nav-anchor-flexbox"></a>
+					<h3>Life in the Jungle</h3>
+				</div>
 				<h4>CSS Flexbox Exercise</h4>
 				<div class="container">
 					<img class="flexbox-exercise-image" src="http://nilsoeynhausen.de/wp-content/uploads/2018/06/IMG_0153-1.jpg">
@@ -98,14 +114,20 @@
 					<p>From today on, this website will not only contain my very own CSS from the scratch but I have also included the <em>Bootstrap Stylesheet</em> which I will explore during the following exercises.</p>
 			</section>
 			<section class="green-section startup-landing-page-exercise">
-					<h3>The coolest hippest startup (ever)!</h3>
+					<div class="nav-anchor">
+						<a id="nav-anchor-startup-landing-page"></a>
+						<h3>The coolest hippest startup (ever)!</h3>
+					</div>
 					<h4>Startup Landing Page Exercise</h4>
 					<div class="button-container">
 						<input type="submit" value="Find out more" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary btn-lrg">
 					</div>
 			</section>
 			<section class="white-section javascript-shopping-list-exercise">
-					<h3>Get it done today</h3>
+					<div class="nav-anchor">
+						<a id="nav-anchor-shopping-list"></a>
+						<h3>Get it done today</h3>
+					</div>
 					<h4>Javascript Shopping List Exercise</h4>
 					<div class="main-content-content wrapper">
 						<input id="shoppinglistuserinput" type="text" placeholder=" enter items here">
